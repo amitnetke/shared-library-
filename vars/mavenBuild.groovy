@@ -1,4 +1,4 @@
-def call(String branch) {
+def call(Map stageParams) {
 
     checkout 
         scmGit(
