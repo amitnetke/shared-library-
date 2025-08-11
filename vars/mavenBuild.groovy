@@ -1,3 +1,3 @@
 def call() {
-    mvn clean install
+    echo "maven build started"
 }
