@@ -1,10 +1,4 @@
-def call(Map stageParams) {
+def call() {
 
-    checkout (
-        scmGit(
-            branches: [[name: stageParams.branch]], 
-            extensions: [], 
-            userRemoteConfigs: [[url: stageParams.url ]]
-        )
-    )
+    echo "Build has completed."
 }
